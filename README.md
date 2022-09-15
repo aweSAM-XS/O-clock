@@ -1,6 +1,8 @@
 # awesam-clock
+
 Clock made using Javascript and CSS
 
+<pre>
 Oh, yeah!
 You gotta get schwifty
 You gotta get schwifty in here
@@ -23,4 +25,4 @@ Schwifty song, comin' at ya
 It's the schwif-schwifty
 Hey, take your pants off
 It's schwifty time today
-
+</pre>
