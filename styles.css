@@ -1,24 +1,60 @@
-.clock {
-	background: url(./time-to-get-schwifty.png) bottom left;
-
+html {
+    background: url(./time-to-get-schwifty.png) bottom left;
+    background-size: cover;
+    font-family: 'helvetica neue', helvetica, arial, sans-serif;
+    font-size: 10px;
 }
 
-/* .clock-face {
+body {
+    margin: 0;
+    font-size: 2rem;
+    display: flex;
+    flex: 1;
+    min-height: 100vh;
+    align-items: center;
+}
 
+.clock {
+    width: 30rem;
+    height: 30rem;
+    border: 1rem solid #0b9eb0;
+    border-radius: 50%;
+    margin: 5rem auto;
+    position: relative;
+    padding: 2rem;
+    box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.1), inset 0 0 0 3px #efefef,
+        inset 0 0 10px black, 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.clock-face {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	transform: translateY(-3px); /* account for the height of the clock hands */
+	/* background: url(./schwifty.png) center center; */
 }
 
 .hand{
-
+	width: 50%;
+	height: 6px;
+	background: #0b9eb0;
+	position: absolute;
+	top: 50%;
+	transform-origin: 100%;
+	transform: rotate(90deg);
+	transition: all 0.05s;
+	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
 .seconds-hand {
-
+	background: #d15559;
 }
 
 .minute-hand {
-
+	background: #0b9eb0;
 }
 
 .hour-hand {
-
-} */
+	background: #0b9eb0;
+	height: 10px;
+}
