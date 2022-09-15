@@ -4,6 +4,7 @@ Clock made using Javascript and CSS
 
 <pre>
 <b>It's time to get schwifty</b>
+
 Oh, yeah!
 You gotta get schwifty
 You gotta get schwifty in here
