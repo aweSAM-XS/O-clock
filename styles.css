@@ -31,7 +31,6 @@ body {
 	width: 100%;
 	height: 100%;
 	transform: translateY(-3px); /* account for the height of the clock hands */
-	/* background: url(./schwifty.png) center center; */
 }
 
 .hand{
@@ -46,7 +45,7 @@ body {
 	transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
 }
 
-.seconds-hand {
+.second-hand {
 	background: #d15559;
 }
 
@@ -57,4 +56,5 @@ body {
 .hour-hand {
 	background: #0b9eb0;
 	height: 10px;
+	/* width: 30%; */
 }
