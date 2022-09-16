@@ -1,11 +1,15 @@
 html {
-    background: url(./time-to-get-schwifty.png);
-    background-size: cover;
+    background: #000;
     font-family: 'helvetica neue', helvetica, arial, sans-serif;
     font-size: 10px;
 }
 
 body {
+    background: url(./time-to-get-schwifty.svg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin: 0;
     font-size: 2rem;
     display: flex;
